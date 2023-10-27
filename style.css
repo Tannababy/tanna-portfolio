@@ -10,12 +10,6 @@ body {
   line-height: 1.5;
 }
 
-nav {
-  margin-right: 20px;
-  font-size: 15px;
-  float: right;
-}
-
 ul {
   list-style-type: none;
 }
@@ -25,18 +19,28 @@ li {
   margin-left: 25px;
 }
 
-h1 {
-  display: inline;
+p {
+  font-size: 20px;
 }
 
-p {
-  display: inline;
+img {
+  display: inline-block;
+  max-height: 500px;
 }
 
 #nav-bar {
   display: flex;
+  margin-right: 20px;
+  font-size: 15px;
+  float: right;
 }
 
 .hero-banner {
-  display: flex;
+  padding-top: 20%;
+  display: inline-block;
+}
+
+.author {
+  font-size: 36px;
+  padding: 5px;
 }
