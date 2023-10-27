@@ -23,24 +23,28 @@ p {
   font-size: 20px;
 }
 
-img {
+/*img {
   display: inline-block;
   max-height: 500px;
-}
+} */
 
 #nav-bar {
-  display: flex;
   margin-right: 20px;
   font-size: 15px;
   float: right;
 }
 
-.hero-banner {
+#hero-banner {
   padding-top: 20%;
-  display: inline-block;
+  display: flex;
 }
 
-.author {
+.intro {
+  flex-direction: row;
   font-size: 36px;
   padding: 5px;
+}
+
+.portrait {
+  flex-direction: row;
 }
