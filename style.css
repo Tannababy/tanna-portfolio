@@ -10,15 +10,33 @@ body {
   line-height: 1.5;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
+nav {
+  margin-right: 20px;
+  font-size: 15px;
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+h1 {
+  display: inline;
 }
 
 p {
-  margin: 0;
+  display: inline;
+}
+
+#nav-bar {
+  display: flex;
+}
+
+.hero-banner {
+  display: flex;
 }
