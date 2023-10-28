@@ -39,12 +39,16 @@ p {
   display: flex;
 }
 
+#about {
+  display: block;
+}
+
 .intro {
   flex-direction: row;
   font-size: 36px;
   padding: 5px;
 }
 
-.portrait {
+/*.portrait {
   flex-direction: row;
-}
+}*/
