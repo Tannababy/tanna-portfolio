@@ -16,7 +16,13 @@ ul {
 
 li {
   display: inline-block;
+  font-size: 20px;
   margin-left: 25px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
 }
 
 p {
@@ -52,3 +58,8 @@ p {
 /*.portrait {
   flex-direction: row;
 }*/
+
+.verticalLine {
+  border-left: thick solid #ff0000;
+  margin-left: 25%;
+}
