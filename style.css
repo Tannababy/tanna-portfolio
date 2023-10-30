@@ -69,10 +69,6 @@ p {
   grid-area: cv;
 }
 
-#contact-me {
-  grid-template-columns: contact-me;
-}
-
 .nav-bar {
   display: flex;
   flex-direction: row;
