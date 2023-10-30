@@ -32,16 +32,47 @@ p {
     "about about";
 }
 
+#intro {
+  grid-area: intro;
+}
+
+#portrait {
+  grid-area: portrait;
+  background-image: url(/Image.jpg);
+  max-height: 100px;
+  max-width: 100px;
+}
+
+#about {
+  grid-area: about;
+}
+
 #verticalLine {
   border-left: thick solid #ff0000;
   margin: 50px 30px 20px 30px;
   display: grid;
   grid-template-rows: 50% 25% 25%;
-  grid-template-columns: 300px 70%;
+  grid-template-columns: 30% 70%;
   grid-template-areas:
     "left-column projects"
     "left-column cv"
-    "left-colum contact-me";
+    "left-column contact-me";
+}
+
+#left-column {
+  grid-area: left-column;
+}
+
+#projects {
+  grid-area: projects;
+}
+
+#cv {
+  grid-area: cv;
+}
+
+#contact-me {
+  grid-area: contact-me;
 }
 
 .nav-bar {
