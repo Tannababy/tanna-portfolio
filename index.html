@@ -12,41 +12,32 @@
     <!-- main logo / nav -->
     <nav id="navBar">
       <section class="nav-bar">
-        <div>
-          <a href="about">About me</a>
-        </div>
-        <div>
-          <a href="projects">Projects</a>
-        </div>
-        <div>
-          <a href="cv">CV</a>
-        </div>
-        <div>
-          <a href="contact-me">Contact me</a>
-        </div>
+        <a href="#about">About me</a>
+        <a href="#projects">Projects</a>
+        <a href="#cv">CV</a>
+        <a href="#contact-me">Contact me</a>
       </section>
     </nav>
+
     <!-- hero banner -->
     <main id="heroBanner">
-      <section class="hero-banner">
-        <div class="intro">
-          <p>Hi, my name is</p>
-          <h2>Lotanna Amobi</h2>
-          <p>Junior frontend web developer in the UK!</p>
-        </div>
+      <section id="intro" class="heroBannerGrid">
+        <p>Hi, my name is</p>
+        <h2>Lotanna Amobi</h2>
+        <p>Junior frontend web developer in the UK!</p>
+      </section>
 
-        <div class="portrait"></div>
+      <section id="portrait" class="heroBannerGrid"></section>
 
-        <div class="about">
-          <h2>About Me</h2>
-          <p>
-            I have not been a developer for very long. But what I lack in
-            experience, I make up for in creativity and drive. There are so many
-            areas that I am passionate about. building clean and accessible
-            first websites are my obsession. I hope to be amazing at building
-            them one day.
-          </p>
-        </div>
+      <section id="about" class="heroBannerGrid">
+        <h2>About Me</h2>
+        <p>
+          I have not been a developer for very long. But what I lack in
+          experience, I make up for in creativity and drive. There are so many
+          areas that I am passionate about. building clean and accessible first
+          websites are my obsession. I hope to be amazing at building them one
+          day.
+        </p>
       </section>
     </main>
 
@@ -54,20 +45,16 @@
 
     <!-- portfolio container -->
     <section id="verticalLine">
-      <section class="content">
-        <div class="projects">
-          <h2>Projects</h2>
-        </div>
-
-        <div class="cv">
-          <!-- contact -->
-          <h2>CV</h2>
-        </div>
-
-        <div class="contact-me">
-          <h2>Contact Me</h2>
-        </div>
-      </section>
+      <article id="projects" class="content">
+        <h2>Projects</h2>
+      </article>
+      <article id="cv" class="content">
+        <!-- contact -->
+        <h2>CV</h2>
+      </article>
+      <article id="contact-me" class="contact">
+        <h2>Contact Me</h2>
+      </article>
     </section>
   </body>
 </html>
