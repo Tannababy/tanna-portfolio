@@ -14,11 +14,11 @@ body {
   color: var(--my-text-color);
   line-height: 1.5;
   background-image: linear-gradient(
-    #ebe8fc,
-    #ddd5f3,
-    #cec2eb,
-    #c0afe2,
-    #b19cd7
+    #ebe8fc 0%,
+    #ddd5f3 20%,
+    #cec2eb 40%,
+    #c0afe260 60%,
+    #b19cd7 100%
   );
 }
 
@@ -34,6 +34,7 @@ a {
   text-decoration: none;
   margin-left: 20px;
   font-size: 20px;
+  color: var(--my-text-color);
 }
 
 p {
@@ -107,6 +108,11 @@ footer {
   grid-area: bottom-row;
   border: medium solid #151360;
   background-image: url(/images/02-portfolio-3.jpg);
+}
+
+#contact-me {
+  display: flex;
+  flex-direction: row;
 }
 
 .nav-bar {
