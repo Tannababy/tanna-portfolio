@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Tanna's-portfolio</title>
-    <link rel="stylesheet" href="/index.css" />
+    <link rel="stylesheet" href="/index.css" type="text/css" />
   </head>
 
   <body>
@@ -14,7 +14,7 @@
       <section class="nav-bar">
         <a href="#about">About me</a>
         <a href="#projects">Projects</a>
-        <a href="#cv">CV</a>
+        <!-- <a href="#cv">CV</a> -->
         <a href="#contact-me">Contact me</a>
       </section>
     </nav>
@@ -23,11 +23,16 @@
     <main id="heroBanner">
       <section id="intro" class="heroBannerGrid">
         <p>Hi, my name is</p>
-        <h2>Lotanna Amobi</h2>
+        <h1>Lotanna Amobi</h1>
         <p>Junior frontend web developer in the UK!</p>
       </section>
 
-      <section id="portrait" class="heroBannerGrid"></section>
+      <section id="portrait" class="heroBannerGrid">
+        <!--<img
+          src="/images/Image Small Background Removed.png"
+          alt="Image of author"
+        />-->
+      </section>
 
       <section id="about" class="heroBannerGrid">
         <h2>About Me</h2>
@@ -45,16 +50,20 @@
 
     <!-- portfolio container -->
     <section id="verticalLine">
-      <article id="left-column"></article>
-      <article id="projects" class="content">
+      <section id="projects" class="content">
         <h2>Projects</h2>
-      </article>
-      <article id="cv" class="content">
+        <article id="top-row" class="projectsGrid">
+          
+        </article>
+        <article id="middle-row" class="projectsGrid"></article>
+        <article id="bottom-row" class="projectsGrid"></article>
+      </section>
+      <!--   <article id="cv" class="content">
         <h2>CV</h2>
-      </article>
-      <article id="contact-me" class="content">
+      </article> -->
+      <section id="contact-me" class="content">
         <h2>Contact Me</h2>
-      </article>
+      </section>
     </section>
   </body>
 </html>

@@ -8,6 +8,17 @@ body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   line-height: 1.5;
+  background-image: linear-gradient(
+    #ebe8fc,
+    #ddd5f3,
+    #cec2eb,
+    #c0afe2,
+    #b19cd7
+  );
+}
+
+h1 {
+  font-size: 40px;
 }
 
 a {
@@ -38,41 +49,44 @@ p {
 
 #portrait {
   grid-area: portrait;
-  background-image: url(/Image.jpg);
-  max-height: 100px;
-  max-width: 100px;
+  background-image: url(/images/Image\ Small\ Background\ Removed.png);
 }
 
 #about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   grid-area: about;
 }
 
 #verticalLine {
-  border-left: thick solid #ff0000;
   margin: 50px 30px 20px 30px;
-  display: grid;
-  grid-template-rows: 50% 25% 25%;
-  grid-template-columns: 30% 70%;
-  grid-template-areas:
-    "left-column projects"
-    "left-column cv"
-    "left-column contact-me";
-}
-
-#left-column {
-  grid-area: left-column;
+  display: flex;
+  flex-direction: column;
 }
 
 #projects {
-  grid-area: projects;
+  display: grid;
+  min-height: 500px;
+  grid-template-rows: 50% 25% 25%;
+  grid-template-columns: 35% 65%;
+  grid-template-areas:
+    " top-row"
+    " middle-row"
+    " bottom-row"";
 }
 
-#cv {
-  grid-area: cv;
+#top-row {
+  grid-area: top-row;
 }
 
-#contact-me {
-  grid-area: contact-me;
+#middle-row {
+  grid-area: middle-row;
+}
+
+#bottom-row {
+  grid-area: bottom-row;
 }
 
 .nav-bar {
@@ -82,3 +96,10 @@ p {
   padding-right: 30px;
   margin: 20px 20px;
 }
+
+.heroBannerGrid {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
