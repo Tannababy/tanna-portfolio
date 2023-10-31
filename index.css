@@ -64,7 +64,7 @@ footer {
 #portrait {
   grid-area: portrait;
   border-radius: 0.1%;
-  background-image: url(/images/Image\ Small\ Background\ Removed.png);
+  background-image: url(./images/Image\ Small\ Background\ Removed.png);
 }
 
 #about {
@@ -95,7 +95,7 @@ footer {
 #top-row {
   grid-area: top-row;
   border: medium solid #151360;
-  background-image: url(/images/02-portfolio-1.jpg);
+  background-image: url(./images/Image\ 31-10-2023\ at\ 17.29\ Medium.jpeg);
 }
 
 #middle-row {
