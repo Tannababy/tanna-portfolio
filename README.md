@@ -7,8 +7,8 @@ In this week's challenge :star_struck:, we were given the task to create a live 
 Below is a screenshot of the mock-up website used as a guide.
 <br>
 <br>
-![Screenshot of demo part1](/assests/images/part1.png)
-![Screenshot of demo par2](/assests/images/part2.png)
+![Screenshot of demo part1](/assets/part1.png)
+![Screenshot of demo par2](/assets/part2.png)
 
 ## Credits
 

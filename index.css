@@ -64,7 +64,7 @@ footer {
 #portrait {
   grid-area: portrait;
   border-radius: 0.1%;
-  background-image: url(/assests/images/ImageSmallBackgroundRemoved.png);
+  background-image: url(/assets/ImageSmallBackgroundRemoved.png);
 }
 
 #about {
@@ -95,19 +95,19 @@ footer {
 #top-row {
   grid-area: top-row;
   border: medium solid #151360;
-  background-image: url(/assests/images/Image31-10-2023at17.29Medium.jpeg);
+  background-image: url(/assets/ImageMedium.png);
 }
 
 #middle-row {
   grid-area: middle-row;
   border: medium solid #151360;
-  background-image: url(/assests/images/02-portfolio-1.jpg);
+  background-image: url(/assets/02-portfolio-1.jpg);
 }
 
 #bottom-row {
   grid-area: bottom-row;
   border: medium solid #151360;
-  background-image: url(/assests/images/02-portfolio-2.jpg);
+  background-image: url(/assets/02-portfolio-2.jpg);
 }
 
 #contact-me {
