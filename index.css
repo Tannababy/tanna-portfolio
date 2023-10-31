@@ -1,3 +1,7 @@
+:root {
+  --my-text-color: #151360;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -7,6 +11,7 @@ body {
   padding: 0;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  color: var(--my-text-color);
   line-height: 1.5;
   background-image: linear-gradient(
     #ebe8fc,
@@ -21,8 +26,11 @@ h1 {
   font-size: 40px;
 }
 
+h3 {
+  border: medium dashed #151360;
+}
+
 a {
-  color: black;
   text-decoration: none;
   margin-left: 20px;
   font-size: 20px;
@@ -32,10 +40,15 @@ p {
   font-size: 20px;
 }
 
+footer {
+  display: block;
+  text-align: center;
+}
+
 #heroBanner {
   margin: 50px 30px 20px 30px;
   display: grid;
-  min-height: 500px;
+  min-height: 700px;
   grid-template-rows: 70% 30%;
   grid-template-columns: 60% 40%;
   grid-template-areas:
@@ -49,6 +62,7 @@ p {
 
 #portrait {
   grid-area: portrait;
+  border-radius: 0.1%;
   background-image: url(/images/Image\ Small\ Background\ Removed.png);
 }
 
@@ -70,23 +84,29 @@ p {
   display: grid;
   min-height: 500px;
   grid-template-rows: 50% 25% 25%;
-  grid-template-columns: 35% 65%;
+  grid-template-columns: 30% 70%;
   grid-template-areas:
-    " top-row"
-    " middle-row"
-    " bottom-row"";
+    "left-column top-row"
+    "left-column middle-row"
+    "left-column bottom-row";
 }
 
 #top-row {
   grid-area: top-row;
+  border: medium solid #151360;
+  background-image: url(/images/02-portfolio-1.jpg);
 }
 
 #middle-row {
   grid-area: middle-row;
+  border: medium solid #151360;
+  background-image: url(/images/02-portfolio-2.jpg);
 }
 
 #bottom-row {
   grid-area: bottom-row;
+  border: medium solid #151360;
+  background-image: url(/images/02-portfolio-3.jpg);
 }
 
 .nav-bar {
@@ -102,4 +122,3 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
